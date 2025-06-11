@@ -1,0 +1,174 @@
+.banner{
+ background-image: url('../assets/images/banner.png');
+ background-repeat: no-repeat;
+ background-color: #181717;
+ box-sizing: content-box;
+ border-style: groove;
+ border-color:  rgb(0, 174, 255);
+ border: 5%;
+}
+.logo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border-image-width: 10px;
+    height: 200px;
+    border: 10px 10px 10px 10px solid color rgb(0, 174, 255);
+     border-radius: 70%;
+     box-shadow: 2px 25px 10000px rgb(0, 195, 255, 0.6);
+}
+.banner-content{
+    font-family: 'Courier New', Courier, monospace;
+   color: rgb(0, 174, 255);
+    font-size: 20px;
+    text-align: center;
+}
+.banner-content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+   text-shadow: 2px 2px 5px rgba(0, 160, 235, 0.6);
+}
+.banner-content button{
+    background-color: #181717;
+    color: rgba(0, 174, 255, 0.6);
+    font-size: 20px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 174, 255, 0.6);;
+    box-shadow: 2px 2px 2px rgba(0, 174, 255, 0.6);
+    cursor: pointer;
+}
+#course-content{
+    background-color: #000000;
+    padding: 40px;
+}
+#course-content h2{
+    padding: auto;
+    height: 100p;
+   text-align: center;
+   font-size: 40px;
+   font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    text-decoration-line:unset;
+    color: rgba(0, 160, 235, 0.6);
+}
+#course-content p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.module:nth-child(1) {
+    background-color: #181717;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 174, 255, 0.6);;
+    box-shadow: 2px 2px 2px rgba(0, 174, 255, 0.6);
+    cursor: pointer;
+}
+.module:nth-child(2) {
+    background-color: #181717;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 174, 255, 0.6);;
+    box-shadow: 2px 2px 2px rgba(0, 174, 255, 0.6);
+    cursor: pointer;
+}
+.module:nth-child(3) {
+background-color: #181717;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 174, 255, 0.6);;
+    box-shadow: 2px 2px 2px rgba(0, 174, 255, 0.6);
+    cursor: pointer;
+} 
+.module:nth-child(1) span {
+ color: rgba(0, 174, 255, 0.6);
+}
+
+.module:nth-child(2) span {
+  color: rgba(0, 174, 255, 0.6);
+}
+
+.module:nth-child(3) span {
+color: rgb(0, 174, 255);
+}
+#transform-world {
+    background-image: url('../assets/images/woman-code.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px;
+    height: 90vh;
+    filter: saturate(290%);
+
+}
+#transform-world p {
+    font-size: 30px;
+    font-family: 'Courier', Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 174, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    width: 250px;
+    padding: 280px 20px;
+    margin: 0; 
+}
+#professional-challenges {
+    background-color: #000000;
+    padding: 40px;
+    border: 2px solid rgba(0, 174, 255, 0.6);;
+    box-shadow: 2px 2px 2px rgba(0, 174, 255, 0.6);
+    cursor: pointer;
+}
+#professional-challenges img {
+    width: 50%;
+    height:min-content;
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+#professional-challenges h2 {
+    font-size: 30px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    color: rgb(0, 174, 255);
+}
+#professional-challenges p {
+    font-size: 14px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+footer{
+   background: linear-gradient(to bottom, #000000 0%, #000000 30%, #3399FF  130%, #3399FF 80%);
+    padding: 20px;
+    height: 30vh;
+    color: white;
+}
+footer img{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;
+}
+footer p{
+    font-size: 13px;
+    padding-bottom: 100px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
